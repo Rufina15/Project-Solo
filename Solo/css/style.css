@@ -1,0 +1,762 @@
+body{
+  margin:0;
+  padding:0;
+background-color: black;
+}
+
+.header {
+    overflow: hidden;
+    background-color:whitesmoke;
+    padding: 10px 30px;
+}
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 10px;
+    border-radius: 5px;
+  }
+  .header a.logo {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'KnuckleDown', cursive;
+  }
+  .header a:hover {
+    background-color:gold;
+    color: black;
+  }
+  .header a.active {
+    background-color: gold;
+    color:black;
+  }
+  input[type=text] {
+    width: 130px;
+    background-color:whitesmoke;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  input[type=text]:focus {
+    width: 70%;
+  }
+  .header-right {
+    float: right;
+  }
+
+  .l{
+    border-left: 7px solid darkgreen;
+    height: 47px ;
+    position: absolute;
+    right:34cm;
+    margin-left: 3px;
+    top:1.4cm;
+  }
+  
+  .fa {
+    float: left;
+    padding: 2px;
+    border: none;
+    margin-top: 5px;
+    font-size: 10px;
+    width: 100%;
+    height: 10px;
+    background: gold;
+    color:black; 
+    cursor: pointer;
+  }
+  .fa:hover {
+    background: gold;
+    padding-right: 5px;
+    
+  }
+  .item{
+    margin-left: 5cm;
+    height: 100%;
+    object-fit: cover;
+    width: 70%;
+  }
+  .fa::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+ 
+  .carousel-inner .item{
+    height: 800px;
+    overflow: hidden;
+} 
+.hero{
+  min-height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+.container{
+    background-color:black;
+    background-size: cover;
+}
+.container_2{
+  margin-top: -140px;
+  position: center;
+  margin-left: 5cm;
+}
+a:link{
+    color: gold;;
+}
+.section{
+    background-color: black;
+    background-size: cover;
+}
+.hedo{
+  min-height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+.q{
+    width: 89%;
+    height: 7px;
+    border: 0 none;
+    margin-right: 10px;
+    margin-left: 53px;
+    margin-top:-3px;
+    margin-bottom: 5cm;
+    background-color: darkgreen;
+}
+.w{
+    border-left: 7px solid darkgreen;
+    height: 29.7cm;
+    position: absolute;
+    left:  32.9cm;
+    margin-left: 3px;
+    top:2.5cm;
+  }
+  
+.bed{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'KnuckleDown', cursive;
+    color:pink;
+    padding-left: 5cm;
+   
+}
+.headl{
+    font-size: 90px;
+    font-weight: bold;
+    font-family: 'KnuckleDown', cursive;
+    color: gold;
+    background-size: cover;
+    background-color: black;
+    padding-left: 10cm;
+    letter-spacing: 5px;
+   
+}
+
+.u{
+  width: 89%;
+    height: 7px;
+    border: 0 none;
+    margin-right: 10px;
+    margin-left: 55.3px;
+    background-color: darkgreen;
+}
+
+.glav{
+  background-color: black;
+}
+.r{
+    border-left: 7px solid darkgreen;
+    height: 27cm;
+    position: absolute;
+    left:-0.6cm;
+    margin-left: 2cm;
+    top:32cm;
+  }
+  .nert{
+    font-size: 70px;
+    font-family: 'Andada Pro', serif;
+    color: gold;
+    padding-left:5cm;
+    letter-spacing: 5px;
+    position: relative;
+    padding-bottom: 15cm;
+    padding-top: 4cm;
+  }
+  .gogo{
+    font-size: 70px;
+    font-family: 'Andada Pro', serif;
+    color:white;
+    padding-left: 1cm;
+    letter-spacing: 7px;
+    display: flex;
+    padding-top: -10cm;
+  }
+  .footo{
+    padding-left: 4cm;
+    padding-top: -35cm;
+    transition: 1s;
+  }
+  .footo:hover{
+    transform: scale(0.9);
+  }
+.button {
+  background-color:black; 
+  border: none;
+  color:white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 50px;
+  margin-top: 7cm;
+  margin-left: -27cm;
+  border: 3px solid gold;
+  width: 12cm;
+  height: 5cm;
+}
+
+.wow{
+  min-height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+.Autumn{
+  background-color: rgb(255, 211, 160);
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  width: 16cm;
+  height: 4cm;
+  padding-top: 1cm;
+  margin-left: 10cm ;
+  margin-top: -12cm;
+  font-family: 'Abril Fatface', cursive;
+}
+.e{
+  width: 89%;
+  height: 7px;
+  border: 0 none;
+  margin-right: 11px;
+  margin-left: 56px;
+  margin-top:0.6cm;
+  margin-bottom: 20cm;
+  background-color: darkgreen;
+}
+.dama{
+    padding-left: 3cm;
+    padding-top: -37cm;
+  position: relative;
+  bottom:19cm; 
+  transition: 1s;
+  width: 250px;
+}
+.dama:hover{
+  transform:scale(0.8);
+}
+.word{
+  color:gold;
+  text-align: center;
+  font-size: 100px;
+  /* width: 16cm;
+  height: 4cm; */
+  padding-top: 1cm;
+  margin-left: 15cm ;
+  margin-top: -30cm;
+  font-family: 'Andada Pro', serif;
+}
+.word_2{
+  color:gold;
+  text-align: center;
+  font-size: 100px;
+  /* width: 16cm;
+  height: 4cm; */
+  padding-top: 1cm;
+  margin-left: 15cm ;
+  margin-top: -2cm;
+  font-family: 'Secular One', sans-serif;
+}
+.k{
+  border-left: 7px solid darkgreen;
+    height: 21.1cm;
+    position: absolute;
+    left:  32.9cm;
+    margin-left: 3px;
+    top:59cm;
+}
+.dama_2{
+  padding-left: 15cm;
+  padding-top: -40cm;
+  transition: 1s;
+}
+.dama_2:hover{
+  transform:scale(1.1);
+}
+.j{
+  width: 89%;
+  height: 7px;
+  border: 0 none;
+  margin-right: 11px;
+  margin-left: 56px;
+  margin-top:1cm;
+  margin-bottom: 10cm;
+  background-color: darkgreen;
+}
+
+.d{
+  border-left: 7px solid darkgreen;
+    height: 12.9cm;
+    position: absolute;
+    left:  1.3cm;
+    margin-left: 3px;
+    top:79.9cm;
+}
+
+.dama_3{
+  padding-left: 3cm;
+  position: relative;
+  top:-9cm;
+  width: 150px;
+}
+.word_3{
+  color:white;
+  text-align: center;
+  font-size: 45px;
+  padding-top: 1cm;
+  margin-left: 18cm ;
+  margin-top: -17cm;
+  font-family: 'Fredoka One', cursive;
+}
+.f{
+  width: 89%;
+  height: 7px;
+  border: 0 none;
+  margin-right: 11px;
+  margin-left: 56px;
+  margin-top:6.21cm;
+  margin-bottom: 10cm;
+  background-color: darkgreen;
+}
+.s{
+  border-left: 7px solid darkgreen;
+    height: 7cm;
+    position: absolute;
+    left:  32.8cm;
+    margin-left: 3px;
+    top:92.8cm;
+}
+.about{
+  border: none;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  bottom: 36cm;
+  right: 12cm;
+  color:white;
+}
+.other{
+  border: none;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  bottom: 42cm;
+  right: 2cm;
+  color:white;
+}
+ .maki{
+  border: none;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  bottom: 47cm;
+  padding-left: 16cm;
+  color:gold;
+}
+.ds{
+  font-size: 50px;
+    font-weight: bold;
+    font-family: 'KnuckleDown', cursive;
+    color:gold;
+  position: relative;
+  bottom:48.7cm;
+  padding-left: 21cm;
+} 
+.we{
+  color: azure;
+  position: relative;
+  bottom:48cm;
+  margin-left: 23cm;
+  text-align: left;
+  border: 2px solid darkgreen;
+  padding-left: 1cm;
+  padding-right: 1cm;
+  width: 310px;
+  height: 140px;
+}
+.footer{
+  height: 20px;
+  padding: 500px;
+  background-color: black;
+}
+.fab {
+  padding: 40px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  /* margin: 5px 2px; */
+  position: relative;
+  bottom: 50cm;
+  left: 12cm;
+  color: gold;
+}
+
+@media (max-width: 700px) {
+  
+.header {
+  padding: 5px 15px;
+}
+.header a {
+  padding: 6px;
+  font-size: 15px;
+  line-height: 7px;
+  border-radius: 3px;
+}
+.header a.logo {
+  font-size: 35px;
+}
+input[type=text] {
+  width: 70px;
+}
+input[type=text]:focus {
+  width: 100%;
+}
+
+.l{
+  border-left: 1px;
+  height: 50px ;
+  right:10px;
+  margin-left: 50px;
+  top:10px;
+}
+
+/* .fa {
+  padding: 1px;
+  border: none;
+  margin-top: 5px;
+  font-size: 10px;
+  width: 100%;
+  height: 10px;
+  background: gold;
+  color:black; 
+  cursor: pointer;
+}
+.fa:hover {
+  background: gold;
+  padding-right: 5px;
+  
+} */
+
+
+.item{
+  padding-left:-100px ;
+  height: 30%;
+  width: 80%;
+  margin-top: 15cm;
+}
+.carousel-inner .item{
+  height: 300px;
+  width: 100%;
+  left: 1cm;
+} 
+.hero{
+min-height: 100vh;
+width: 100%;
+}
+
+.container_2{
+margin-top: -150px;
+position: center;
+margin-left: 0cm;
+}
+.hedo{
+min-height: 100vh;
+width: 100%;
+}
+.q{
+  width: 85%;
+  height: 7px;
+  border: 0 none;
+  margin-right: 12px;
+  margin-left: 32px;
+  margin-top:-3px;
+  margin-bottom: 5cm;
+}
+.w{
+  border-left: 7px solid darkgreen;
+  height: 14.1cm;
+  position: absolute;
+  left:  11.5cm;
+  margin-left: 3px;
+  top:2cm;
+}
+
+.bed{
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'KnuckleDown', cursive;
+  color:pink;
+  padding-left: 2cm;
+  margin-top: -220px;
+}
+.headl{
+  font-size: 40px;
+  color: gold;
+  margin-top: -20px;
+  padding-left: 2cm;
+  letter-spacing: 5px;
+ 
+}
+
+.u{
+width: 89%;
+  height: 7px;
+  border: 0 none;
+  margin-right: 10px;
+  margin-left: 14px;
+}
+.r{
+  border-left: 7px solid darkgreen;
+  height: 27cm;
+  position: absolute;
+  left:55cm;
+  margin-left: 2cm;
+  top:32cm;
+}
+.nert{
+  font-size: 40px;
+  color: gold;
+  padding-left:1cm;
+  letter-spacing: 5px;
+  position: relative;
+  padding-bottom: 15cm;
+  padding-top: 0cm;
+}
+.gogo{
+  font-size: 30px;
+  font-family: 'Andada Pro', serif;
+  color:white;
+  padding-left: 0.3cm;
+  letter-spacing: 7px;
+  display: flex;
+  padding-top: -10cm;
+}
+.footo{
+  padding-left: 1cm;
+  padding-top: -30cm;
+  transition: 1s;
+  width: 290px;
+  height: 150px;
+  margin-top: 1.1cm;
+  margin-right: 10cm;
+
+}
+.button {
+background-color:black; 
+border: none;
+color:white;
+text-align: center;
+text-decoration: none;
+font-size: 20px;
+margin-top: 6cm;
+margin-left: -21cm;
+border: 3px solid gold;
+width: 6cm;
+height: 2cm;
+}
+
+.Autumn{
+background-color: rgb(255, 211, 160);
+color: black;
+text-align: center;
+font-size: 25px;
+padding-bottom: 2cm;
+width: 6cm;
+height: 2cm;
+padding-top: 1cm;
+margin-left: 3cm ;
+margin-top: -14cm;
+font-family: 'Abril Fatface', cursive;
+}
+.e{
+width: 75%;
+height: 7px;
+border: 0 none;
+margin-right: 11px;
+margin-left: 50px;
+margin-top:0.6cm;
+margin-bottom: 20cm;
+}
+.dama{
+  display: none;
+}
+.word{
+color:gold;
+text-align: center;
+font-size: 50px;
+/* width: 16cm;
+height: 4cm; */
+padding-top: 10cm;
+margin-left: -6cm ;
+margin-top: -30cm;
+font-family: 'Andada Pro', serif;
+}
+.word_2{
+color:gold;
+text-align: center;
+font-size: 50px;
+/* width: 16cm;
+height: 4cm; */
+padding-top: 1cm;
+margin-left: -5cm ;
+margin-top: -1cm;
+font-family: 'Secular One', sans-serif;
+}
+.k{
+border-left: 7px solid darkgreen;
+  height: 18cm;
+  position: absolute;
+  left:  32.9cm;
+  margin-left: 3px;
+  top:59cm;
+}
+.dama_2{
+padding-left: 1cm;
+padding-top: -40cm;
+transition: 1s;
+ width: 25%;
+  height: 30%; 
+  margin-top: 1.1cm;
+  margin-right: 5cm;
+}
+.dama_2:hover{
+transform:scale(1.1);
+}
+.j{
+width: 89%;
+height: 7px;
+border: 0 none;
+margin-right: 11px;
+margin-left: 56px;
+margin-top:1cm;
+margin-bottom: 10cm;
+background-color: darkgreen;
+}
+
+.d{
+border-left: 7px solid darkgreen;
+  height: 13cm;
+  position: absolute;
+  left:  1.3cm;
+  margin-left: 3px;
+  top:76.8cm;
+}
+
+.dama_3{
+padding-left: 1cm;
+top:-9cm;
+width: 20%;
+height: 50%;
+
+}
+.word_3{
+color:white;
+text-align: center;
+font-size: 25px;
+padding-top: 1cm;
+margin-left: 17cm ;
+margin-top: -14cm;
+font-family: 'Fredoka One', cursive;
+}
+.f{
+width: 80%;
+height: 7px;
+border: 0 none;
+margin-right: 11px;
+margin-left: 56px;
+margin-top:6.21cm;
+margin-bottom: 10cm;
+background-color: darkgreen;
+}
+.s{
+border-left: 7px solid darkgreen;
+  height: 7cm;
+  position: absolute;
+  left:  32.8cm;
+  margin-left: 3px;
+  top:50cm;
+}
+.about{
+border: none;
+width: 40%;
+text-align: center;
+position: relative;
+bottom: 15cm;
+right: -7cm;
+color:white;
+}
+.other{
+border: none;
+width: 50%;
+text-align: center;
+position: relative;
+bottom: 21.7cm;
+right: -1cm;
+color:white;
+}
+.maki{
+border: none;
+width: 70%;
+text-align: center;
+position: relative;
+bottom: 19cm;
+padding-left: 3cm;
+color:gold;
+}
+.ds{
+font-size: 50px;
+  font-weight: bold;
+  font-family: 'KnuckleDown', cursive;
+  color:gold;
+position: relative;
+bottom:20.8cm;
+padding-left: 9cm;
+} 
+.we{
+color: azure;
+position: relative;
+bottom:19cm;
+margin-left: 3cm;
+text-align: left;
+border: 2px solid darkgreen;
+padding-left: 1cm;
+padding-right: 1cm;
+width: 270px;
+height: 160px;
+}
+.footer{
+height: 20px;
+padding: 100px;
+background-color: black;
+}
+.fab {
+padding: 40px;
+font-size: 30px;
+width: 50px;
+text-align: center;
+text-decoration: none;
+/* margin: 5px 2px; */
+position: relative;
+bottom: 26cm;
+left: 3cm;
+color: gold;
+}
+}

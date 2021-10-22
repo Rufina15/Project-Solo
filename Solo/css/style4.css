@@ -1,0 +1,92 @@
+ .header {
+        overflow: hidden;
+        background-color:whitesmoke;
+        padding: 10px 30px;
+    }
+      .header a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 10px;
+        border-radius: 5px;
+      }
+      .header a.logo {
+        font-size: 50px;
+        font-weight: bold;
+        font-family: 'KnuckleDown', cursive;
+      }
+      .header a:hover {
+        background-color:gold;
+        color: black;
+      }
+      .header a.active {
+        background-color: gold;
+        color:black;
+      }
+      input[type=text] {
+        width: 130px;
+        background-color:whitesmoke;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+      }
+      input[type=text]:focus {
+        width: 70%;
+      }
+      .header-right {
+        float: right;
+      }
+      /* .fa {
+        float: left;
+        padding: 2px;
+        border: none;
+        margin-top: 5px;
+        font-size: 10px;
+        width: 100%;
+        height: 10px;
+        background: gold;
+        color:black; 
+        cursor: pointer;
+      }
+      .fa:hover {
+        background: gold;
+        padding-right: 5px; */
+        
+      }
+      .item{
+        margin-left: 5cm;
+        height: 100%;
+        object-fit: cover;
+        width: 70%;
+      }
+      .fa::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      .carousel-inner .item{
+        height: 800px;
+        overflow: hidden;
+    } 
+    .about_1{
+      font-size: 25px;
+      font-family: 'Times New Roman', Times, serif;
+      color: rgba(0,0,0,1);
+      margin-top: 1cm;
+      margin-left: 4cm;
+      margin-right: 4cm;
+  }
+  .about_2{
+      font-size: 30px;
+      font-family: 'Times New Roman', Times, serif;
+      color: rgba(0,0,0,0.8);
+      margin-top: 2cm;
+  }
+  .map{
+      margin-top: 2cm;
+  }
+  .btn{
+      background-color: var(--mainColor);
+  }
